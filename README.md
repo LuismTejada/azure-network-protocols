@@ -1,3 +1,6 @@
+<p align="center">
+<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+</p>
 # azure-network-protocols
 <p align="center">
 
