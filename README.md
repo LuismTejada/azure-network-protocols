@@ -26,7 +26,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 First you will need to create to VMs on Azure. One machine will be a Linux machine and the other will be a Windows 10 machine. Both will have two CPUs and they must be on the same VNET. 
