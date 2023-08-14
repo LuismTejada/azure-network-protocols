@@ -54,6 +54,12 @@ Next we will perpetually ping the Linux machine with the command ping -t. This w
 </p>
 <br />
 
+<img width="1280" alt="Screen Shot 2023-08-14 at 10 04 18 AM" src="https://github.com/LuismTejada/azure-network-protocols/assets/140201562/27c22801-7b40-402c-a2ac-3c68feb100ac">
+
+<img width="1280" alt="Screen Shot 2023-08-14 at 10 09 35 AM" src="https://github.com/LuismTejada/azure-network-protocols/assets/140201562/6e84d53b-bd55-48ea-85fb-295b4d145e61">
+
+<img width="1280" alt="Screen Shot 2023-08-14 at 10 10 41 AM" src="https://github.com/LuismTejada/azure-network-protocols/assets/140201562/e496e559-902a-4f8b-b979-848ffc7489be">
+
 <p>
 
 </p>
@@ -61,8 +67,20 @@ Next we will use our Windows machine to SSH to the Linux machine. SSH has no GUI
 </p>
 <br />
 
+<img width="1280" alt="Screen Shot 2023-08-14 at 10 37 38 AM" src="https://github.com/LuismTejada/azure-network-protocols/assets/140201562/96f35a5c-08c1-4230-beeb-abc7caf0aba9">
+
 Next we will use Wireshark to filter for DHCP. DHCP is the Dynamic Host Configuration Protocol. This works on ports 67/68. It's used to assign IP addresses to machines. We will request a new IP address with the command "ipconfig /renew". Once we enter the command Wireshark will capture DHCP traffic.
+
+<img width="833" alt="Screen Shot 2023-08-14 at 10 48 29 AM" src="https://github.com/LuismTejada/azure-network-protocols/assets/140201562/e564b7ba-813a-4ca8-822b-0a5245af2a2a">
+
+<img width="1280" alt="Screen Shot 2023-08-14 at 10 49 44 AM" src="https://github.com/LuismTejada/azure-network-protocols/assets/140201562/1d1a87c1-9073-4c4b-bf27-d339d2dc64a5">
 
 Time to filter DNS traffic. We will set Wireshark to filter DNS traffic. We will initiate DNS traffic by typing in the command "nslookup www.google.com" this command essentially asks our DNS server what is Google's IP address.
 
+<img width="1280" alt="Screen Shot 2023-08-14 at 10 52 04 AM" src="https://github.com/LuismTejada/azure-network-protocols/assets/140201562/dd011ab1-1a25-431c-9372-dc80117f6084">
+
+
 Lastly we will filter for RDP traffic. When we enter tcp.port==3389, traffic is spammed non-stop because we are using Remote Desktop Protocol to connect to our Virtual Machine
+
+<img width="1280" alt="Screen Shot 2023-08-14 at 10 54 26 AM" src="https://github.com/LuismTejada/azure-network-protocols/assets/140201562/94ca5bc2-bc6f-433f-bef2-78f4548a18f6">
+
