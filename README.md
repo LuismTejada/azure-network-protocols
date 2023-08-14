@@ -46,6 +46,8 @@ We can inspect each individual packet and see the actual data that is being sent
 </p>
 <br />
 
+<img width="1280" alt="Screen Shot 2023-08-14 at 9 59 46 AM" src="https://github.com/LuismTejada/azure-network-protocols/assets/140201562/88b327fc-e9ac-4d27-b027-f28dcf719f12">
+
 <p>
 </p>
 Next we will perpetually ping the Linux machine with the command ping -t. This will continually ping the machine until we decide to stop it, while the Windows machine is pinging the Linux machine we will go to the Linux machine and block inbound ICMP traffic on its firewall. Once we do that we will stop receiving echo replies from the Linux machine. We will block ICMP by creating a new Network Security Group on the Linux machine that will be set to block ICMP. We can allow traffic by allowing ICMP on the Linux Network Security Groups page on Azure.
